@@ -1,1 +1,1067 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orações para Restaurar Seu Casamento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset e estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Estilos globais */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 9999px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, #059669, #047857);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(to right, #047857, #065f46);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .badge-primary {
+            background: linear-gradient(to right, #e11d48, #be123c);
+            color: white;
+        }
+        
+        .badge-warning {
+            background: linear-gradient(to right, #f59e0b, #d97706);
+            color: black;
+        }
+        
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: none;
+        }
+        
+        .card:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        /* Seções específicas */
+        .hero {
+            background: linear-gradient(to bottom, #fff1f2, #ffffff, #fffbeb);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 0;
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        @media (min-width: 1024px) {
+            .hero-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .hero-text {
+            text-align: center;
+        }
+        
+        @media (min-width: 1024px) {
+            .hero-text {
+                text-align: left;
+            order: 1;
+            padding-right: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: 0;
+            justify-self: flex-start;
+            align-self: center;
+            width: 100%;
+            height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            color: #111827;
+        }
+        
+        @media (min-width: 768px) {
+            .hero-title {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(to right, #e11d48, #b45309);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .hero-description {
+            font-size: 1.125rem;
+            color: #4b5563;
+            margin-bottom: 32px;
+            line-height: 1.7;
+        }
+        
+        .hero-image {
+            position: relative;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        
+        .hero-image-bg {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #fb7185, #fbbf24);
+            border-radius: 24px;
+            filter: blur(48px);
+            opacity: 0.2;
+            animation: pulse 2s infinite;
+        }
+        
+        .hero-image-main {
+            position: relative;
+            background-color: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            transform: rotate(3deg);
+            transition: transform 0.5s ease;
+        }
+        
+        .hero-image-main:hover {
+            transform: rotate(0);
+        }
+        
+        .hero-image-content {
+            background: linear-gradient(to bottom right, #e11d48, #be123c, #b45309);
+            border-radius: 12px;
+            padding: 24px;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px;
+        }
+        
+        .hero-image-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .hero-image-subtitle {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        
+        .hero-image-badge {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+        
+        .hero-decoration {
+            position: absolute;
+            background-color: white;
+            border-radius: 9999px;
+            padding: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .decoration-1 {
+            top: -8px;
+            right: -8px;
+            animation: bounce 1s infinite alternate;
+        }
+        
+        .decoration-2 {
+            bottom: -8px;
+            left: -8px;
+            animation: bounce 1s infinite alternate 0.15s;
+        }
+        
+        .security-text {
+            font-size: 0.875rem;
+            color: #6b7280;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        @media (min-width: 1024px) {
+            .security-text {
+                justify-content: flex-start;
+            }
+        }
+        
+        /* Seção de propósito */
+        .purpose {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #111827;
+        }
+        
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: #4b5563;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+        
+        @media (min-width: 768px) {
+            .features {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+            }
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .feature-icon {
+            background: linear-gradient(to bottom right, #fee2e2, #fecaca);
+            border-radius: 9999px;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover .feature-icon {
+            transform: scale(1.1);
+        }
+        
+        .feature-icon-2 {
+            background: linear-gradient(to bottom right, #fef3c7, #fde68a);
+        }
+        
+        .feature-icon-3 {
+            background: linear-gradient(to bottom right, #d1fae5, #a7f3d0);
+        }
+        
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #111827;
+        }
+        
+        .feature-description {
+            color: #4b5563;
+            font-size: 0.875rem;
+            line-height: 1.7;
+        }
+        
+        /* Seção de depoimentos */
+        .testimonials {
+            padding: 80px 0;
+            background: linear-gradient(to bottom right, #fff1f2, #fffbeb);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        
+        @media (min-width: 768px) {
+            .testimonial-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .testimonial-avatar {
+            background: linear-gradient(to bottom right, #fecaca, #fca5a5);
+            width: 64px;
+            height: 64px;
+            border-radius: 9999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            color: #b91c1c;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .testimonial-avatar-2 {
+            background: linear-gradient(to bottom right, #fde68a, #fcd34d);
+            color: #92400e;
+        }
+        
+        .testimonial-avatar-3 {
+            background: linear-gradient(to bottom right, #a7f3d0, #6ee7b7);
+            color: #047857;
+        }
+        
+        .testimonial-quote {
+            font-style: italic;
+            color: #374151;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        
+        .testimonial-author {
+            color: #e11d48;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        .testimonial-author-2 {
+            color: #d97706;
+        }
+        
+        .testimonial-author-3 {
+            color: #059669;
+        }
+        
+        /* Seção de benefícios */
+        .benefits {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        @media (min-width: 1024px) {
+            .benefits-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .benefit-item:hover {
+            background: linear-gradient(to right, rgba(255, 228, 230, 0.5), transparent);
+        }
+        
+        .benefit-icon {
+            background-color: #e11d48;
+            border-radius: 9999px;
+            padding: 8px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .benefit-icon-2 {
+            background-color: #d97706;
+        }
+        
+        .benefit-icon-3 {
+            background-color: #059669;
+        }
+        
+        .benefit-icon-4 {
+            background-color: #7c3aed;
+        }
+        
+        .benefit-content h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+        
+        .benefit-content p {
+            color: #4b5563;
+            font-size: 0.875rem;
+            line-height: 1.6;
+        }
+        
+        .benefits-image {
+            position: relative;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .benefits-image-bg {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #fb7185, #fbbf24);
+            border-radius: 24px;
+            filter: blur(32px);
+            opacity: 0.15;
+        }
+        
+        .benefits-image-main {
+            position: relative;
+            background: linear-gradient(to bottom right, #e11d48, #be123c, #b45309);
+            border-radius: 16px;
+            padding: 24px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .benefits-image-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 16px;
+        }
+        
+        .benefits-image-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .benefits-image-subtitle {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        
+        .benefits-list-small {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 0.875rem;
+        }
+        
+        .benefits-list-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Seção de oferta */
+        .offer {
+            padding: 80px 0;
+            background: linear-gradient(to bottom right, #111827, #881337, #92400e);
+            color: white;
+            text-align: center;
+        }
+        
+        .offer-badge {
+            margin-bottom: 40px;
+        }
+        
+        .offer-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+        
+        @media (min-width: 768px) {
+            .offer-title {
+                font-size: 3rem;
+            }
+        }
+        
+        .offer-subtitle {
+            font-size: 1.125rem;
+            color: #d1d5db;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .offer-price {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 24px;
+            max-width: 400px;
+            margin: 0 auto 40px;
+        }
+        
+        .offer-old-price {
+            color: #9ca3af;
+            text-decoration: line-through;
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+        
+        .offer-new-price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #fbbf24;
+            margin-bottom: 8px;
+        }
+        
+        .offer-price-text {
+            color: #e5e7eb;
+            font-size: 0.875rem;
+        }
+        
+        .offer-btn {
+            margin-bottom: 24px;
+            padding: 16px 32px;
+            font-size: 1.125rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .offer-note {
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+        
+        /* Rodapé */
+        .footer {
+            padding: 80px 0;
+            background-color: white;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            text-align: center;
+        }
+        
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .footer-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-icon {
+            background-color: #d1fae5;
+            border-radius: 9999px;
+            padding: 16px;
+            width: 64px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        
+        .footer-icon-2 {
+            background-color: #dbeafe;
+        }
+        
+        .footer-icon-3 {
+            background-color: #ede9fe;
+        }
+        
+        .footer-item-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+        
+        .footer-item-text {
+            color: #4b5563;
+            font-size: 0.875rem;
+            line-height: 1.6;
+        }
+        
+        .footer-divider {
+            border-top: 1px solid #e5e7eb;
+            margin-top: 64px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        
+        .footer-copyright {
+            color: #4b5563;
+            font-size: 0.875rem;
+            margin-bottom: 16px;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+        
+        .footer-link {
+            color: #6b7280;
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-link:hover {
+            color: #111827;
+        }
+        
+        /* Animações */
+        @keyframes pulse {
+            0% {
+                opacity: 0.2;
+            }
+            50% {
+                opacity: 0.3;
+            }
+            100% {
+                opacity: 0.2;
+            }
+        }
+        
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge badge-primary">✨ Transformação Espiritual em 30 Dias</span>
+                    
+                    <h1 class="hero-title">
+                        <span>Ore com </span>
+                        <span class="gradient-text">propósito</span>
+                        <span> e veja seu </span>
+                        <span class="gradient-text">casamento ser restaurado</span>
+                        <span> nos primeiros 30 dias</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Um guia espiritual completo com orações poderosas, versículos bíblicos e conselhos práticos 
+                        para transformar seu relacionamento através da fé.
+                    </p>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 16px;">
+                        <a href="#offer-section" class="btn btn-primary">
+                            💝 Quero Restaurar Meu Casamento
+                        </a>
+                        
+                        <p class="security-text">
+                            <i class="fas fa-lock"></i>
+                            Compra 100% segura • Garantia de 7 dias
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="hero-image-bg"></div>
+                    
+                    <div class="hero-image-main">
+                        <div class="hero-image-content">
+                            <i class="fas fa-heart hero-icon"></i>
+                            <h3 class="hero-image-title">Orações para</h3>
+                            <h3 class="hero-image-title">Restaurar Seu</h3>
+                            <h3 class="hero-image-subtitle">CASAMENTO</h3>
+                            <div class="hero-image-badge">
+                                em 30 dias
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-decoration decoration-1">
+                        <i class="fas fa-sparkles" style="color: #e11d48;"></i>
+                    </div>
+                    <div class="hero-decoration decoration-2">
+                        <i class="fas fa-heart" style="color: #b45309;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Seção de Propósito -->
+    <section class="purpose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    O Poder da Oração na <span style="color: #e11d48;">Restauração</span>
+                </h2>
+                <p class="section-subtitle">
+                    Não é um milagre instantâneo, mas um caminho de fé com resultados reais. 
+                    Descubra como a oração pode fortalecer, direcionar e transformar seu relacionamento.
+                </p>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-sparkles" style="color: #e11d48; font-size: 32px;"></i>
+                    </div>
+                    <h3 class="feature-title">Fortalece</h3>
+                    <p class="feature-description">
+                        A oração conecta seu coração ao de Deus, fortalecendo sua fé e determinação 
+                        para lutar pelo seu casamento com sabedoria divina.
+                    </p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon feature-icon-2">
+                        <i class="fas fa-users" style="color: #b45309; font-size: 32px;"></i>
+                    </div>
+                    <h3 class="feature-title">Direciona</h3>
+                    <p class="feature-description">
+                        Através da oração, você recebe direção divina para tomar as melhores decisões 
+                        e agir com amor, paciência e compreensão.
+                    </p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon feature-icon-3">
+                        <i class="fas fa-heart" style="color: #047857; font-size: 32px;"></i>
+                    </div>
+                    <h3 class="feature-title">Transforma</h3>
+                    <p class="feature-description">
+                        A oração não apenas muda as circunstâncias, mas transforma corações, 
+                        incluindo o seu e o do seu cônjuge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Vidas <span style="color: #e11d48;">Transformadas</span> pela Oração
+                </h2>
+                <p class="section-subtitle">
+                    Histórias reais de casamentos restaurados através da fé
+                </p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">M</div>
+                    <blockquote class="testimonial-quote">
+                        "Após 18 dias orando, meu marido voltou para casa. Foi um milagre! 
+                        As orações me deram força e sabedoria para agir com amor."
+                    </blockquote>
+                    <footer class="testimonial-author">— Maria, 34 anos</footer>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar testimonial-avatar-2">A</div>
+                    <blockquote class="testimonial-quote">
+                        "Nosso casamento estava acabado, mas Deus restaurou tudo. 
+                        Hoje somos mais unidos do que nunca. A oração realmente funciona!"
+                    </blockquote>
+                    <footer class="testimonial-author testimonial-author-2">— Ana Paula, 28 anos</footer>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar testimonial-avatar-3">C</div>
+                    <blockquote class="testimonial-quote">
+                        "As orações mudaram meu coração primeiro, depois o dele. 
+                        Em 25 dias, nossa comunicação estava completamente restaurada."
+                    </blockquote>
+                    <footer class="testimonial-author testimonial-author-3">— Carla, 41 anos</footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Benefícios -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    O Que Você Recebe <span style="color: #e11d48;">Hoje</span>
+                </h2>
+                <p class="section-subtitle">
+                    Um kit completo para transformar seu casamento através da oração
+                </p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-book-open" style="color: white;"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Orações Diárias Guiadas</h3>
+                            <p>30 orações poderosas, uma para cada dia, com instruções claras sobre como orar com fé e propósito.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon benefit-icon-2">
+                            <i class="fas fa-heart" style="color: white;"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Versículos Bíblicos Especiais</h3>
+                            <p>Passagens bíblicas selecionadas para fortalecer sua fé e declarar as promessas de Deus sobre seu casamento.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon benefit-icon-3">
+                            <i class="fas fa-headphones" style="color: white;"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Áudios para Meditação</h3>
+                            <p>Meditações guiadas para momentos de reflexão profunda e conexão espiritual com Deus.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon benefit-icon-4">
+                            <i class="fas fa-users" style="color: white;"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Guia com Conselhos Práticos</h3>
+                            <p>Orientações espirituais e práticas sobre como agir durante o processo de restauração do seu casamento.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefits-image">
+                    <div class="benefits-image-bg"></div>
+                    <div class="benefits-image-main">
+                        <i class="fas fa-book-open benefits-image-icon"></i>
+                        <h3 class="benefits-image-title">Kit Completo</h3>
+                        <h4 class="benefits-image-subtitle">Restauração</h4>
+                        <div class="benefits-list-small">
+                            <div class="benefits-list-item">
+                                <i class="fas fa-check"></i>
+                                <span>30 Orações Poderosas</span>
+                            </div>
+                            <div class="benefits-list-item">
+                                <i class="fas fa-check"></i>
+                                <span>Versículos Bíblicos</span>
+                            </div>
+                            <div class="benefits-list-item">
+                                <i class="fas fa-check"></i>
+                                <span>Áudios de Meditação</span>
+                            </div>
+                            <div class="benefits-list-item">
+                                <i class="fas fa-check"></i>
+                                <span>Guia Prático</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Oferta -->
+    <section id="offer-section" class="offer">
+        <div class="container">
+            <div class="offer-badge">
+                <span class="badge badge-warning">🔥 OFERTA LIMITADA - APENAS ESTA SEMANA</span>
+            </div>
+            
+            <h2 class="offer-title">
+                Transforme Seu Casamento
+                <br>
+                <span style="background: linear-gradient(to right, #fbbf24, #f59e0b); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                    Por Apenas R$ 37,00
+                </span>
+            </h2>
+            
+            <p class="offer-subtitle">
+                Invista no que mais importa: seu casamento e sua família. 
+                Um investimento pequeno para uma transformação eterna.
+            </p>
+            
+            <div class="offer-price">
+                <div class="offer-old-price">R$ 97,00</div>
+                <div class="offer-new-price">R$ 37,00</div>
+                <div class="offer-price-text">Pagamento único</div>
+            </div>
+            
+            <a href="#" class="btn btn-primary offer-btn">
+                💖 Baixar Meu Livro Agora
+            </a>
+            
+            <p class="offer-note">
+                Acesso imediato após a compra • Download em PDF e áudios MP3
+            </p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-lock" style="color: #059669; font-size: 24px;"></i>
+                    </div>
+                    <h3 class="footer-item-title">Pagamento 100% Seguro</h3>
+                    <p class="footer-item-text">
+                        Sua compra é protegida por criptografia SSL e processada por plataformas seguras.
+                    </p>
+                </div>
+                
+                <div class="footer-item">
+                    <div class="footer-icon footer-icon-2">
+                        <i class="fas fa-shield-alt" style="color: #2563eb; font-size: 24px;"></i>
+                    </div>
+                    <h3 class="footer-item-title">Garantia de 7 Dias</h3>
+                    <p class="footer-item-text">
+                        Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem perguntas.
+                    </p>
+                </div>
+                
+                <div class="footer-item">
+                    <div class="footer-icon footer-icon-3">
+                        <i class="fas fa-heart" style="color: #7c3aed; font-size: 24px;"></i>
+                    </div>
+                    <h3 class="footer-item-title">Suporte Dedicado</h3>
+                    <p class="footer-item-text">
+                        Nossa equipe está aqui para ajudá-lo em sua jornada de restauração.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-divider">
+                <p class="footer-copyright">
+                    © 2024 Orações para Restaurar Seu Casamento. Todos os direitos reservados.
+                </p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Política de Privacidade</a>
+                    <a href="#" class="footer-link">Termos de Uso</a>
+                    <a href="#" class="footer-link">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Função para rolar suavemente até a seção de oferta
+        function scrollToOffer() {
+            const offerSection = document.getElementById('offer-section');
+            offerSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Adiciona o evento de clique a todos os botões que devem rolar até a oferta
+        document.querySelectorAll('[href="#offer-section"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                scrollToOffer();
+            });
+        });
+    </script>
+</body>
+</html>
